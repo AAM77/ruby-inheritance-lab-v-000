@@ -6,4 +6,8 @@ class Student
     KNOWLEDGE = []
   end # initialize
 
+  def learn(knowledge_str)
+    KNOWLEDGE << knowledge_str
+  end # learn
+
 end

@@ -1,4 +1,4 @@
-require relative "./teacher.rb"
+require relative "./user.rb"
 
 class Student
 

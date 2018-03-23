@@ -1,6 +1,6 @@
 require relative "./user.rb"
 
-class Student
+class Student < User
 
   def initialize
     KNOWLEDGE = []

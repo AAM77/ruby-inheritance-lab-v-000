@@ -7,6 +7,11 @@ class Student < User
     @knowledge = []
   end # initialize
 
+  # returns the contents of the @knowledge array
+  def knowledge
+    @knowledge
+  end # knowledge
+
   # accepts a string as an element and "teaches" it to the Student
   # by adding it to the KNOWLDEG array
   def learn(knowledge_str)

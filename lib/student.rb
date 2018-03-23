@@ -7,7 +7,7 @@ class Student < User
     @knowledge = []
   end # initialize
 
-  # returns the contents of the @knowledge array
+  # returns the contents of the @knowledge array for the instance
   def knowledge
     @knowledge
   end # knowledge
@@ -15,7 +15,7 @@ class Student < User
   # accepts a string as an element and "teaches" it to the Student
   # by adding it to the KNOWLDEG array
   def learn(knowledge_str)
-    @knowledge << knowledge_str
+    self.knowledge << knowledge_str
   end # learn
 
 end # Student class

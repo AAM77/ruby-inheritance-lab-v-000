@@ -7,6 +7,8 @@ class Student < User
     KNOWLEDGE = []
   end # initialize
 
+  # accepts a string as an element and "teaches" it to the Student
+  # by adding it to the KNOWLDEG array
   def learn(knowledge_str)
     KNOWLEDGE << knowledge_str
   end # learn

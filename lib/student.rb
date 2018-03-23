@@ -10,4 +10,4 @@ class Student
     KNOWLEDGE << knowledge_str
   end # learn
 
-end
+end # Student class
